@@ -1,0 +1,45 @@
+{
+  "head": {
+    "title": "site"
+  },
+  "layout": {
+    "header": "Header content",
+    "footer": "Footer content"
+  },
+  "welcome": "Welcome",
+  "home": "Home",
+  "terms": "Terms and Conditions",
+  "policy": "Privacy Policy",
+  "form": "Form",
+  "notification": "Notification",
+  "auth": {
+    "user_name": "User Name",
+    "enter_user_name": "Enter User Name",
+    "phone_number": "Phone Number",
+    "enter_phone": "Enter Phone Number",
+    "email": "Email",
+    "enter_email": "Enter Email",
+    "message": "Message",
+    "enter_message": "Enter Message",
+    "send": "Send"
+  },
+  "validate_msg": {
+    "user_name": {
+      "required": "Enter User Name"
+    },
+    "phone": {
+      "required": "Enter Phone Number",
+      "min": "Phone Number must be 10 digits",
+      "max": "Phone Number must be 10 digits",
+      "invalid": "Phone Number is not valid"
+    },
+    "email": {
+      "required": "Enter Email",
+      "invalid": "Email is not valid"
+    },
+    "message": {
+      "required": "Enter Message",
+      "invalid": "Message is not valid"
+    }
+  }
+}

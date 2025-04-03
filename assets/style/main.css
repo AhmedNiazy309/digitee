@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "primeicons/primeicons.css";
+/* mixins */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #000;
+}
+
+::selection {
+  color: #fff;
+  background: #000;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b2b2b2;
+}
+::-webkit-scrollbar-thumb::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+* {
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body .btn {
+  @apply bg-gray-500 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500;
+}
+
+.router-link-active {
+  @apply bg-blue-700 text-white rounded py-1 px-2;
+}
+
+.p-menubar-item-content .p-menubar-item-link {
+  color: #fff !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+}
+.p-menubar-item-content:hover {
+  background-color: transparent !important;
+}
+
+.p-menubar-button {
+  color: #fff !important;
+}
+
+.p-menubar-mobile .p-menubar-root-list {
+  background-color: #5A72EA !important;
+}
+
+.p-menubar-button.p-menubar-button:hover {
+  background-color: transparent !important;
+}/*# sourceMappingURL=main.css.map */

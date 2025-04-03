@@ -1,0 +1,49 @@
+.p-menubar-item-content{
+
+  .p-menubar-item-link {
+    color: #fff !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+  }
+    &:hover{
+      background-color: transparent !important;
+    }
+  }
+  .p-menubar-button{
+    color: #fff !important;
+  }
+  .p-menubar-mobile .p-menubar-root-list{
+    background-color: #5A72EA !important;
+  }
+  .p-menubar-button.p-menubar-button:hover{
+    background-color: transparent !important;
+  }
+  .clientsCarousel{
+    .carousel__slide--active{
+      width: 350px !important;
+    }
+    .slideClients:not(.carousel__slide--active){
+      width: 100px !important;
+    }
+  }
+  .carousel__pagination {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+  }
+  
+  .carousel__pagination-button {
+    width: 10px;
+    height: 10px;
+    background-color: #d1d5db; /* لون النقاط */
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel__pagination-button--active {
+    background-color: #5a72ea; /* لون النقطة النشطة */
+  }
+  .p-icon.p-accordionheader-toggle-icon{
+    display: none !important;
+  }
